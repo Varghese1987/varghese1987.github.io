@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url(variables.css);
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.site-main .site-banner {
+    background: url(img/1.jpg) no-repeat 0% 50%;
+}
+.title-text{
+    font: normal bold 50px/ 72px var(--sansPro);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--sansPro);
+}
+.font-sanspro{
+    font-family: var(--sansPro);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-family: var(--sansPro);
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem ;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    font-family: var(--sansPro);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.site-banner {
+    background: url(img/25101-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.site-banner .site-title h1{
+    padding-top: 35%;
+    font-size: 3rem;
+    padding-left: 20%;
+}
+
+.site-banner .site-title h4{
+    font-size: 1.5rem;
+    padding-left: 20%;
+}
+.site-banner .banner-image > img{
+    
+    width: 25rem;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.imgdivhome{
+
+    padding:11.8%;    
+    /* padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 20%; */
+}
+.img{
+    width: 20rem;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -webkit-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+    box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+}
