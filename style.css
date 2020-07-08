@@ -134,12 +134,10 @@ button:hover
 .experience .first-row .col-lg-6 > .brand{
     border: 1px solid var(--border-color);
     text-align: center;
-    object-position: 50%;
     margin: .9rem 0;
-    width: 220px;
-    
-    padding-top: 10%;
-    padding-bottom: 10%;
+    width: 220px;    
+    padding-top: 20%;
+    padding-bottom: 20%;
     cursor: pointer;
     transition: transform .4s ease;
     
