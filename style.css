@@ -189,8 +189,8 @@ button:hover
     box-shadow: var(--box-shadow);
 }
 .img-service{
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
@@ -199,8 +199,10 @@ button:hover
     box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
 }
 .imglogo{
-    height: 4rem;
     margin: .5rem;
+    font-size: 3rem;
+    padding:.5rem;
+    border-radius: 5px;
     -webkit-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
     -moz-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
     box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
