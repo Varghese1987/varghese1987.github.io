@@ -124,7 +124,7 @@ button:hover
 }
 /* experience works */
 .experience{
-    padding: 1rem 20rem;
+    padding: 1rem ;
     margin-bottom: 4rem;
 }
 .experience .first-row .col-lg-6{
@@ -134,15 +134,22 @@ button:hover
 .experience .first-row .col-lg-6 > .brand{
     border: 1px solid var(--border-color);
     text-align: center;
-    padding: 1.9rem 0rem;
+    object-position: 50%;
     margin: .9rem 0;
-    width: 180px;
-    height: 100px;
+    width: 220px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     cursor: pointer;
     transition: transform .4s ease;
+    
 }
 .experience .first-row .col-lg-6 > .brand > img{
-    width: 50%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 .experience .first-row .col-lg-6 > .brand:hover{
     box-shadow: var(--box-shadow);
