@@ -244,3 +244,87 @@ button:hover
 .our-project:hover{
     box-shadow: var(--box-shadow);
 }
+
+/* Contact */
+
+.section1{
+    position: relative;
+    padding-top: 10%;
+    min-height: 100%;
+    background: grey;
+}
+
+.section1 .container .contact h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.section1 .container .contact .info{
+    position: relative;
+    margin: 20px 0;
+}
+
+.section1 .container .contact .info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.section1 .container .contact .info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+
+.section1 .container .contact .info li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;    
+}
+
+.section1 .container .contact .info li span:nth-child(2){
+    margin-left: 10px;
+    font-weight: 500;
+    opacity: 0.5;
+    color: white;
+}
+
+.section1 .container .contact .info li span:nth-child(2){
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;    
+}
+.section1 .container .contact .info li:hover span:nth-child(1) img,
+.section1 .container .contact .info li:hover span:nth-child(2){
+    opacity: 1;
+}
+
+.section1 .container .contact .social{
+    position: relative;
+    display: flex;
+}
+
+.section1 .container .contact .social li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.section1 .container .contact .social li a{
+    text-decoration: none;
+}
+
+.section1 .container .contact .social li a:nth-child(1){
+    color: white;
+    filter: invert(1);
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.section1 .container .contact .social li:hover a:nth-child(1){
+    opacity: 1;
+}
