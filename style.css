@@ -250,12 +250,13 @@ button:hover
 .section1{
     position: relative;
     padding-top: 10%;
-    min-height: 100%;
-    background: grey;
+    padding-bottom: 6%;
+    background: url(img/25101-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
 
 .section1 .container .contact h2{
-    color: white;
+    color: rgb(49, 6, 6);
     font-size: 24px;
     font-weight: 500;
     padding-left: 10px;
@@ -282,8 +283,8 @@ button:hover
 
 .section1 .container .contact .info li span:nth-child(1) img{
     max-width: 100%;
-    filter: invert(1);
-    opacity: 0.5;    
+    opacity: 0.5;
+   
 }
 
 .section1 .container .contact .info li span:nth-child(2){
