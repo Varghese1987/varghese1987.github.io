@@ -242,6 +242,16 @@ button:hover
     margin-left:.5rem;
     margin-bottom:.5rem;
 }
+
+.img-project{
+    width: 20rem;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+    box-shadow: 2px 3px 19px 7px rgba(0,0,0,0.35);
+}
 .our-project:hover{
     box-shadow: var(--box-shadow);
 }
@@ -330,3 +340,9 @@ button:hover
 .section1 .container .contact .social li:hover a:nth-child(1){
     opacity: 1;
 }
+/* other style classes */
+
+.center {
+    display: block;
+    margin: auto;
+  }
