@@ -231,7 +231,7 @@ button:hover
     text-transform: uppercase;
 }
 .project-area .button-group button + button{
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--sansPro);
@@ -348,12 +348,22 @@ button:hover
     margin: auto;
   }
 
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 792px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand
     {
         padding: 2%;
         margin: 0%;
+    }
+    .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+    .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+    .project-area .button-group button{
+        font: normal 500 18px/40px var(--sansPro);
     }
 
 }
