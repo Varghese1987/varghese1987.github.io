@@ -230,8 +230,8 @@ button:hover
     font: normal 500 16px/130px var(--sansPro);
     text-transform: uppercase;
 }
-.project-area .button-group button + button{
-    padding-left: 1rem;
+.project-area .button-group button{
+    padding-right: 1rem;
 }
 .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--sansPro);
