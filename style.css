@@ -184,15 +184,15 @@ button:hover
     padding-left: 8rem;
 }
 /* services */
-.services .services-title h1{
+.services-area .services-title h1{
     font-size: 35px;
 }
-.services .services{
+.services-area .services{
     background: rgba(248, 252, 253, 0.973);
     width: 18rem;
     transition: box-shadow .7s ease;
 }
-.services .services:hover{
+.services-area .services:hover{
     box-shadow: var(--box-shadow);
 }
 .img-service{
@@ -216,7 +216,7 @@ button:hover
 }
 .position{
     margin: 1rem;
-    padding-right: 10rem;
+    /* padding-right: 10rem; */
 }
 .position1{
     position: relative;
@@ -348,7 +348,7 @@ button:hover
     margin: auto;
   }
 
-  @media only screen and (max-width: 792px){
+  @media only screen and (max-width: 990px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand
     {
