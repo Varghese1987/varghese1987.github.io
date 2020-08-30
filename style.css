@@ -43,6 +43,12 @@ button:hover
 }
 .header_area .main-menu .navbar{
     padding: 1rem 10rem ;
+    top: 0;
+    border-width: 0 0 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
 }
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px;
